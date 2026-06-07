@@ -1,0 +1,10 @@
+1. 运行clip_native.R，切割PHYLNCINE数据至TDWG4 level，
+2. 运行spmap_native_new.R，生成本地哺乳动物richness分布图，figures/Native_mam.distri.svg
+2. 运行data_merge_native.R，提取各地区对应物种及合并性状数据，Results_data/native/sp_native.rdata
+3. 运行clip_alien.py，切割DAMA数据至TDWG4 level（注意：DAMA/transfromed data/sp_overlap.shp为对应重叠的物种，DAMA/transfromed data/sp_no_overlap.shp为对应与TDWG没有交集的物种）
+4. 运行clip_alien_islands.py，切割sp_no_overlap数据至Global islands data level，获得DAMA/transfromed data/sp_no_overlap_2.shp为与Global islands没有交集的物种，再将该物种所在岛屿原地理文件替换为Global islands中同一岛屿的地理文件，再次切割后，即获得DAMA/transfromed data/dat_clipped_shp_new_islands.shp文件，此时，将所有外来种切割完毕 （注意，此部分数据仅作补充材料使用，主体分析仍使用TDWG4水平下切割的
+数据）。
+4. 运行spmap_alien_new.R，生成外来哺乳动物richness分布图，见figures/Alien_mam.distri_new.svg
+5. 运行data_merge_alien.R，提取各地区对应外来物种及性状数据，见Results_data/alien/sp_alien.rdata
+6. 运行Phylo_nati.R，检验系统发育数据与本地种分布数据物种对应情况
+7. 运行Phylo_alien.R，检验系统发育数据与外来种分布数据物种对应情况

@@ -1,0 +1,13 @@
+## Code File Descriptions
+
+- **`01plot_figure2.R`** - Generates Figure 2.
+- **`02plot_figure3.R`** - Generates Figure 3.
+- **`03plot_figure4.R`** - Generates Figure 4.
+- **`04Network_analysis.R`** - Performs predator-prey network analysis.
+- **`05fit_GLMMS.R`** - Fits Generalized Linear Mixed Models (GLMMs).
+- **`06plot_figure5.R`** - Generates Figure 5 (Panels A-C).
+- **`07plot_figure5_SEM.R`** - Fits Structural Equation Models (SEMs) for Figure 5.
+- **`08plot_figure6.R`** - Generates Figure 6.
+- **`09plot_figure-s1.R`** - Generates Figure S1 (Supplement).
+- **`10plot_figure-s2.R`** - Generates Figure S2 (Supplement).
+- **`11plot_figure-s3.R`** - Generates Figure S3 (Supplement).

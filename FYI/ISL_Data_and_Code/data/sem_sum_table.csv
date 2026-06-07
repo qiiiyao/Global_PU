@@ -1,0 +1,33 @@
+﻿"Groups","Predictor","Response","Standard estimate","P value","Parameter estimate","DF","Standard error"
+"Invasion characteristics","Residence time","bullfrog_abundance",0.7761,0,0.7761,64,0.0783
+"Invasion characteristics","Residence time","Connectance",0.1718,0.3873,0.9702,63,1.1222
+"Invasion characteristics","Residence time","Modularity",0.2626,0.1438,2.324,64,1.5897
+"Invasion characteristics","Residence time","Nestedness",-0.2635,0.2356,-1.4602,64,1.2311
+"Invasion characteristics","Bullfrog abundance","Connectance",0.0929,0.6026,0.5248,63,1.0081
+"Invasion characteristics","Bullfrog abundance","Modularity",-0.4729,0.0022,-4.1844,64,1.3674
+"Invasion characteristics","Bullfrog abundance","Nestedness",0.3199,0.0899,1.7729,64,1.0453
+"Island characteristics","Isolation","bullfrog_abundance",0.1097,0.1231,0.1097,64,0.0711
+"Island characteristics","Isolation","Connectance",0.5412,9e-4,3.057,63,0.921
+"Island characteristics","Isolation","Modularity",-0.6142,6e-4,-5.4346,64,1.5883
+"Island characteristics","Isolation","Nestedness",0.4475,0.009,2.4801,64,0.95
+"Island characteristics","Area","bullfrog_abundance",0.0588,0.4869,0.0588,64,0.0846
+"Island characteristics","Area","Connectance",0.3595,0.0392,2.0305,63,0.9845
+"Island characteristics","Area","Modularity",5e-4,0.9979,0.0044,64,1.6687
+"Island characteristics","Area","Nestedness",0.0884,0.6309,0.4902,64,1.0203
+"Native characteristics","Native abundance","bullfrog_abundance",-0.167,0.0204,-0.167,64,0.072
+"Native characteristics","Native abundance","Connectance",-0.0718,0.567,-0.4054,63,0.7082
+"Native characteristics","Native abundance","Modularity",-0.1504,0.1824,-1.3311,64,0.9983
+"Native characteristics","Native abundance","Nestedness",0.0357,0.7872,0.198,64,0.7335
+"Habitat characteristics","Water area","bullfrog_abundance",0.0026,0.9734,0.0026,64,0.0787
+"Habitat characteristics","Water area","Connectance",0.0364,0.7601,0.2054,63,0.6724
+"Habitat characteristics","Water area","Modularity",-0.3041,0.004,-2.6909,64,0.9342
+"Habitat characteristics","Water area","Nestedness",0.1522,0.2222,0.8436,64,0.6911
+"Habitat characteristics","Vegetation coverage","Connectance",-0.0229,0.8561,-0.131,63,0.7227
+"Habitat characteristics","Vegetation coverage","Modularity",-0.1735,0.1236,-1.5352,64,0.997
+"Habitat characteristics","Vegetation coverage","Nestedness",0.2265,0.0818,1.255,64,0.721
+"Habitat characteristics","Human activity","Connectance",-0.0058,0.9654,-0.0329,63,0.7582
+"Habitat characteristics","Human activity","Modularity",-0.0309,0.8348,-0.2732,64,1.3098
+"Habitat characteristics","Human activity","Nestedness",0.1426,0.3445,0.7902,64,0.836
+"Habitat characteristics","Crayfish abundance","Connectance",-0.1028,0.3676,-0.5774,63,0.6408
+"Habitat characteristics","Crayfish abundance","Modularity",0.1115,0.2569,0.9865,64,0.8702
+"Habitat characteristics","Crayfish abundance","Nestedness",-0.0892,0.425,-0.4945,64,0.6198

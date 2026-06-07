@@ -1,0 +1,6 @@
+"","s","f","o"
+"22192","Triplophysa_huanglongensis","","#2.Further cleaning of the valid species names file Taxon_data_FishPhyloMaker"
+"26232","Lampetra_lamottenii","all_taxa_names$Taxon_data_FishPhyloMaker$o  =  gsub(""/.*"", replacement = "" "", all_taxa_names$Taxon_data_FishPhyloMaker$o) # removing slash in Perciformes","all_taxa_names$Taxon_data_FishPhyloMaker = all_taxa_names$Taxon_data_FishPhyloMaker[-which(is.na(all_taxa_names$Taxon_data_FishPhyloMaker$s)),"
+"19214","Zungaro_mathisoni","]#remove the row including NA",""
+"16979","Aplocheilichthys_meyburghi","","#3.Details of the process for determining valid species names"
+"15501","Trichomycterus_roseira","# (1) pull and export the duplicated names of the valid names in the All_info_fishbase","all_taxa_names$All_info_fishbase[all_taxa_names$All_info_fishbase$valid_names%>%duplicated(),]%>%"
